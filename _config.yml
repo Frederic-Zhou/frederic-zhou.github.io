@@ -1,7 +1,7 @@
 # Setup
-title:               Frederic Zhou
-tagline:             'Blog'
-description:         'Keep thinking!! 写写画画'
+title:               Frederic 的博客
+tagline:             'Keep thinking, keep writing'
+description:         '记录一些有用的和有趣的事情。'
 url:                 http://zhoufei.io
 baseurl:             ''
 paginate:            10
@@ -9,7 +9,7 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Frederic Zhou
+  name:              Zhoufei(Frederic)
   url:               https://twitter.com/fredericzhou_io
   email:             
 
