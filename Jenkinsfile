@@ -5,7 +5,9 @@ pipeline {
       steps {
         echo 'Begin'
         sh '''ls
-pwd'''
+pwd
+echo $GOPATH
+echo "${GOROOT}"'''
         sh '''go version
 ssh 
 scp
