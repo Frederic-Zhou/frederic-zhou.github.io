@@ -4,6 +4,8 @@ pipeline {
     stage('Start Work') {
       steps {
         echo 'Begin'
+        sh '''ls
+pwd'''
       }
     }
 
