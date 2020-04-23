@@ -4,7 +4,7 @@
  <title>Frederic 的博客</title>
  <link href="http://zhoufei.io/atom.xml" rel="self"/>
  <link href="http://zhoufei.io/"/>
- <updated>2020-04-13T21:14:38+08:00</updated>
+ <updated>2020-04-23T10:51:27+08:00</updated>
  <id>http://zhoufei.io</id>
  <author>
    <name>Zhoufei(Frederic)</name>
@@ -13,10 +13,10 @@
 
  
  <entry>
-   <title>回归用Jeklly写博客</title>
-   <link href="http://zhoufei.io/2020/04/12/use-Jeklly-build-blog/"/>
+   <title>回归用Jekll写博客</title>
+   <link href="http://zhoufei.io/2020/04/12/use-Jekll-build-blog/"/>
    <updated>2020-04-12T00:00:00+08:00</updated>
-   <id>http://zhoufei.io/2020/04/12/use-Jeklly-build-blog</id>
+   <id>http://zhoufei.io/2020/04/12/use-Jekll-build-blog</id>
    <content type="html">&lt;h2 id=&quot;什么叫回归&quot;&gt;什么叫回归？&lt;/h2&gt;
 
 &lt;p&gt;在中国，有非常多的自媒体平台可以用来写博客。作为程序猿的我，一开始都瞧不上这些写作的平台，总觉得应该搭建一个自己的Blog。&lt;/p&gt;
