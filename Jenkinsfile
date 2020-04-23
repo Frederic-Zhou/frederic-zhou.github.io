@@ -6,6 +6,10 @@ pipeline {
         echo 'Begin'
         sh '''ls
 pwd'''
+        sh '''go version
+ssh 
+scp
+'''
       }
     }
 
