@@ -14,6 +14,7 @@ export GO111MODULE=auto'''
       steps {
         sh 'echo $PATH'
         sh 'go version'
+        sh 'go build'
       }
     }
 
