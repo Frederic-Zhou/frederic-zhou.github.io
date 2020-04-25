@@ -12,8 +12,8 @@ export GO111MODULE=auto'''
 
     stage('check version') {
       steps {
-        sh 'go version'
         sh 'echo $PATH'
+        sh 'go version'
       }
     }
 
