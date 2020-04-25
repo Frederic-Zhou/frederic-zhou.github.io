@@ -11,9 +11,12 @@ export GO111MODULE=auto
 '''
         sh '/usr/local/go/bin/go version'
         sleep(time: 1, unit: 'SECONDS')
-        sh '/usr/local/go/bin/go env'
+        sh 'go env'
       }
     }
 
+  }
+  environment {
+    go = '/usr/local/go/bin/go'
   }
 }
