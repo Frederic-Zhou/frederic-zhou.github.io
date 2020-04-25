@@ -3,15 +3,13 @@ pipeline {
   stages {
     stage('Start Work') {
       steps {
-        echo 'Begin'
-        sh '''ls
-pwd
-echo $GOPATH
-echo "${GOROOT}"'''
-        sh '''go version
-ssh 
-scp
-'''
+        echo 'Go env config'
+        sh '''export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export GO111MODULE=auto
+go version'''
+        sh 'go version'
       }
     }
 
