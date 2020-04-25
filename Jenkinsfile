@@ -8,9 +8,8 @@ pipeline {
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export GO111MODULE=auto
-
-echo $GOPATH'''
-        sh 'go version'
+'''
+        sh '/usr/local/go/bin/go version'
       }
     }
 
